@@ -30,7 +30,7 @@ export function footerTemplate(info) {
   return `<section class="contact">
     <h3>Contact Info</h3>
     <h4>Mailing Address:</h4>
-    <div><p>${mailing.line1}<p>
+    <div><p>${mailing.line1}</p>
     <p>${mailing.city}, ${mailing.stateCode} ${mailing.postalCode}</p></div>
     <h4>Phone:</h4>
     <p>${voice}</p>
